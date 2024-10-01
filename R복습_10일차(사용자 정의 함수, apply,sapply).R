@@ -95,7 +95,7 @@ getMax <- function(vec){
 
 addNum(10,20)
 getMax(c(1,2,3))
-getMax(seq(10,50,10)) #매개변수가 벡터이기때문에 인수 벡털 전달
+getMax(seq(10,50,10)) #매개변수가 벡터이기때문에 인수 벡터로 전달
 
 #함수 종료 return
 #1)함수의 결과로 반환
