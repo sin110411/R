@@ -111,7 +111,7 @@ summarise(gr_cyl,n_distinct(gear))
 #n(), n_distinct()는 단독사용 불가
 #summarise, filter,mutate와 함께 사용가능
 
-#sample_n(데이터, 추출할 샘플 개수) : 전체 데이터에서 개수 기준ㅇ로 샘플 추출
+#sample_n(데이터, 추출할 샘플 개수) : 전체 데이터에서 개수 기준으로 샘플 추출
 #mtcars에서 10개 데이터 샘플
 sample_n(mtcars,5)
 head(sample_n(mtcars,2))
